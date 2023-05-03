@@ -1,19 +1,18 @@
 [package]
 name = "nft-standard"
 version = "0.0.1"
-published-at = ""
-upgrade_cap = ""
-shared_publisher = ""
+published-at = "0xaa0baef686525169f13ac793e08fb02e2fb9d9c614de46be24e8d4f3abd07d66"
+upgrade_cap = "0x6090f5e3c816895ed226430ee7e3df00af3cf4e388d7ef2954750ac2a53e8f46"
+shared_publisher = "0x998b75024842b55f7087620d48b26711df5a39855de1106912bcfefe50203468"
 
 [dependencies]
-version = {git = "git@github.com:ENJOY-LAB/sui-version.git", rev = "mainnet"}
-NftProtocol = {git = "git@github.com:Origin-Byte/nft-protocol.git", rev = "main"}
+version = {git = "https://github.com/ENJOY-LAB/sui-version.git", rev = "mainnet"}
+NftProtocol = {git = "https://github.com/ericEnjoy/nft-protocol.git", subdir = "./contracts/nft_protocol", rev = "main"}
 [dependencies.Kiosk]
-git = "git@github.com:MystenLabs/sui.git"
+git = "https://github.com/ericEnjoy/kiosk.git"
 rev = "mainnet"
-subdir = "./kiosk"
 
 [addresses]
-nft_standard =  ""
+nft_standard =  "0xaa0baef686525169f13ac793e08fb02e2fb9d9c614de46be24e8d4f3abd07d66"
 sui =  "0000000000000000000000000000000000000000000000000000000000000002"
-admin = ""
+admin = "0xff29c1854f97ddd25745959f692e5544f907cd974a3e249f0dabed21173acbed"
