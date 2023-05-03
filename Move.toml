@@ -1,0 +1,19 @@
+[package]
+name = "nft-standard"
+version = "0.0.1"
+published-at = ""
+upgrade_cap = ""
+shared_publisher = ""
+
+[dependencies]
+version = {git = "git@github.com:ENJOY-LAB/sui-version.git", rev = "mainnet"}
+NftProtocol = {git = "git@github.com:Origin-Byte/nft-protocol.git", rev = "main"}
+[dependencies.Kiosk]
+git = "git@github.com:MystenLabs/sui.git"
+rev = "mainnet"
+subdir = "./kiosk"
+
+[addresses]
+nft_standard =  ""
+sui =  "0000000000000000000000000000000000000000000000000000000000000002"
+admin = ""

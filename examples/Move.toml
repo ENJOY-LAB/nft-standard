@@ -1,0 +1,10 @@
+[package]
+name = "examples"
+version = "0.0.1"
+published-at = "0xef7b4d2187da83a49b5a1d75524d1379b48c42694d44b1ab51df23c802f5ea0b"
+
+[dependencies]
+nft-standard = {local = "../../nft-standard"}
+
+[addresses]
+examples =  "0x0"
